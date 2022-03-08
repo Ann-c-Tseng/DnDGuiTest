@@ -7,7 +7,7 @@ public class TestBoard {
     public static void main(String[] args) {  
         JButton[][] buttons = new JButton[8][8];  
 
-        JFrame frame = new JFrame("Dungeons and Dragons");
+        JFrame frame = new JFrame("Dungeons and Dragons")
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         JPanel mainPanel = new JPanel(); //mainPanel contains the tilesPanel
